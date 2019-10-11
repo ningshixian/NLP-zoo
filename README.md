@@ -206,44 +206,84 @@ python main.py
 
 ### 生物医学实体识别
 
-1. [LUO, Ling, et al. An attention-based BiLSTM-CRF approach to document-level chemical named entity recognition. Bioinformatics, 2017, 1: 8.](https://sci-hub.org.cn/hubdownload?s=https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btx761/23048295/btx761.pdf)
+## Survey Papers ##
+1. **Overview of BioCreative II gene mention recognition**. Smith L, Tanabe L K, nee Ando R J, et al. *Genome biology*, 2008, 9(2): S2. [[paper]](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2008-9-s2-s2)
+2. **Biomedical named entity recognition: a survey of machine-learning tools**. Campos D, Matos S, Oliveira J L. *Theory and Applications for Advanced Text Mining*, 2012: 175-195. [[paper]](https://books.google.com.hk/books?hl=zh-CN&lr=&id=EfqdDwAAQBAJ&oi=fnd&pg=PA175&ots=WEKIblRekC&sig=FWoufJtWVSDHD3gbWaZXruEOiEs&redir_esc=y#v=onepage&q&f=false)
+2. **Chemical named entities recognition: a review on approaches and applications**.  Eltyeb S, Salim N. *Journal of cheminformatics*, 2014, 6(1): 17. [[paper]](https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-6-17)
+3. **CHEMDNER: The drugs and chemical names extraction challenge**. Krallinger M, Leitner F, Rabal O, et al. *Journal of cheminformatics*, 2015, 7(1): S1. [[paper]](https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-7-S1-S1)
+4. **A comparative study for biomedical named entity recognition**. Wang X, Yang C, Guan R. *International Journal of Machine Learning and Cybernetics*, 2015, 9(3): 373-382. [[paper]](https://link.springer.com/article/10.1007/s13042-015-0426-6)
 
-2. [TSAI, Richard Tzong-Han; HSIAO, Yu-Cheng; LAI, Po-Ting. NERChem: adapting NERBio to chemical patents via full-token features and named entity feature with chemical sub-class composition. Database, 2016, 2016.](https://academic.oup.com/database/article/doi/10.1093/database/baw135/2630527)
+## Dictionary-based Methods ##
+1. **Using BLAST for identifying gene and protein names in journal articles**. Krauthammer M, Rzhetsky A, Morozov P, et al. *Gene*, 2000, 259(1-2): 245-252. [[paper]](https://www.sciencedirect.com/science/article/pii/S0378111900004315)
+2. **Boosting precision and recall of dictionary-based protein name recognition**. Tsuruoka Y, Tsujii J. *Proceedings of the ACL 2003 workshop on Natural language processing in biomedicine-Volume 13*, 2003: 41-48. [[paper]](https://aclanthology.info/pdf/W/W03/W03-1306.pdf)
+2. **Exploiting the performance of dictionary-based bio-entity name recognition in biomedical literature**. Yang Z, Lin H, Li Y. *Computational Biology and Chemistry*, 2008, 32(4): 287-291. [[paper]](https://www.sciencedirect.com/science/article/pii/S1476927108000340)
+2. **A dictionary to identify small molecules and drugs in free text**. Hettne K M, Stierum R H, Schuemie M J, et al. *Bioinformatics*, 2009, 25(22): 2983-2991. [[paper]](https://academic.oup.com/bioinformatics/article-abstract/25/22/2983/180399) [[dictionary]](https://biosemantics.org/index.php/resources/jochem)
+3. **LINNAEUS: a species name identification system for biomedical literature**. Gerner M, Nenadic G, Bergman C M. *BMC bioinformatics*, 2010, 11(1): 85. [[paper]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-11-85)
 
-3. [DAI, Hong-Jie, et al. Enhancing of chemical compound and drug name recognition using representative tag scheme and fine-grained tokenization. Journal of cheminformatics, 2015, 7.S1: S14.
-](https://link.springer.com/article/10.1186/1758-2946-7-S1-S14)
+## Rule-based Methods ##
+1. **Toward information extraction: identifying protein names from biological papers**. Fukuda K, Tsunoda T, Tamura A, et al. *Pac symp biocomput*. 1998, 707(18): 707-718. [[paper]](https://pdfs.semanticscholar.org/335e/8b19ea50d3af6fcefe6f8421e2c9c8936f3f.pdf)
+2. **A biological named entity recognizer**. Narayanaswamy M, Ravikumar K E, Vijay-Shanker K. *Biocomputing* 2003. 2002: 427-438. [[paper]](https://www.worldscientific.com/doi/abs/10.1142/9789812776303_0040)
+3. **ProMiner: rule-based protein and gene entity recognition**. Hanisch D, Fundel K, Mevissen H T, et al. *BMC bioinformatics*, 2005, 6(1): S14. [[paper]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-6-S1-S14)
+4. **MutationFinder: a high-performance system for extracting point mutation mentions from text**. Caporaso J G, Baumgartner Jr W A, Randolph D A, et al. *Bioinformatics*, 2007, 23(14): 1862-1865. [[paper]](https://academic.oup.com/bioinformatics/article/23/14/1862/188647) [[code]](http://mutationfinder.sourceforge.net/)
+3. **Drug name recognition and classification in biomedical texts: a case study outlining approaches underpinning automated systems**. Segura-Bedmar I, Martínez P, Segura-Bedmar M.  *Drug discovery today*, 2008, 13(17-18): 816-823. [[paper]](https://www.sciencedirect.com/science/article/pii/S1359644608002171)
+3. **Investigation of unsupervised pattern learning techniques for bootstrap construction of a medical treatment lexicon**. Xu R, Morgan A, Das A K, et al. *Proceedings of the workshop on current trends in biomedical natural language processing*, 2009: 63-70. [[paper]](http://www.aclweb.org/anthology/W09-1308)
+4. **Linguistic approach for identification of medication names and related information in clinical narratives**.  Hamon T, Grabar N. *Journal of the American Medical Informatics Association*, 2010, 17(5): 549-554. [[paper]](https://academic.oup.com/jamia/article/17/5/549/831598)
+5. **SETH detects and normalizes genetic variants in text**. Thomas P, Rocktäschel T, Hakenberg J, et al. *Bioinformatics*, 2016, 32(18): 2883-2885. [[paper]](https://academic.oup.com/bioinformatics/article/32/18/2883/1743171) [[code]](http://rockt.github.io/SETH/)
+5. **PENNER: Pattern-enhanced Nested Named Entity Recognition in Biomedical Literature**. Wang X, Zhang Y, Li Q, et al. *2018 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)*. 2018: 540-547. [[paper]](https://ieeexplore.ieee.org/abstract/document/8621485/)
 
-4. [HE, Hua, et al. An Insight Extraction System on BioMedical Literature with Deep Neural Networks. In: Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing. 2017. p. 2691-2701.](http://www.aclweb.org/anthology/D17-1285)
 
-5. [CRICHTON, Gamal, et al. A neural network multi-task learning approach to biomedical named entity recognition. BMC bioinformatics, 2017, 18.1: 368.](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1776-8)
+## Machine Learning-based Methods  ##
 
-6. [李丽双; 郭元凯. 基于 CNN-BLSTM-CRF 模型的生物医学命名实体识别. 中文信息学报, 32.1: 116-122.](http://jcip.cipsc.org.cn/CN/article/downloadArticleFile.do?attachType=PDF&id=2505)
+### SVM-based Methods ###
+1. **Tuning support vector machines for biomedical named entity recognition**. Kazama J, Makino T, Ohta Y, et al. *Proceedings of the ACL-02 workshop on Natural language processing in the biomedical domain-Volume 3*, 2002: 1-8. [[paper]](https://aclanthology.info/pdf/W/W02/W02-0301.pdf)
+2. **Biomedical named entity recognition using two-phase model based on SVMs**. Lee K J, Hwang Y S, Kim S, et al. *Journal of Biomedical Informatics*, 2004, 37(6): 436-447. [[paper]](https://www.sciencedirect.com/science/article/pii/S1532046404000863)
+3. **Exploring deep knowledge resources in biomedical name recognition**. GuoDong Z, Jian S. *Proceedings of the International Joint Workshop on Natural Language Processing in Biomedicine and its Applications*, 2004: 96-99. [[paper]](https://aclanthology.info/pdf/W/W04/W04-1219.pdf)
 
-7. [CHOI, Youngduck; CHIU, Chill Yi-I.; SONTAG, David. Learning low-dimensional representations of medical concepts. AMIA Summits on Translational Science Proceedings, 2016, 2016: 41.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5001761/)
+### HMM-based Methods ###
+1. **Named entity recognition in biomedical texts using an HMM model**. Zhao S. *Proceedings of the International Joint Workshop on Natural Language Processing in Biomedicine and its Applications*, 2004: 84-87.[[paper]](https://aclanthology.info/pdf/W/W04/W04-1216.pdf)
+2. **Annotation of chemical named entities**. Corbett P, Batchelor C, Teufel S. P*roceedings of the Workshop on BioNLP 2007: Biological, Translational, and Clinical Language Processing*, 2007: 57-64. [[paper]](https://aclanthology.info/pdf/W/W07/W07-1008.pdf)
+1. **Conditional random fields vs. hidden markov models in a biomedical named entity recognition task**. Ponomareva N, Rosso P, Pla F, et al. *Proc. of Int. Conf. Recent Advances in Natural Language Processing, RANLP*. 2007, 479: 483.[[paper]](http://clg.wlv.ac.uk/papers/Ponomareva-RANLP-07.pdf)
 
-8. [SMITH, Lawrence H., et al. MedTag: a collection of biomedical annotations. In: Proceedings of the ACL-ISMB workshop on linking biological literature, ontologies and databases: mining biological semantics. Association for Computational Linguistics, 2005. p. 32-37.](https://aclanthology.info/pdf/W/W05/W05-1305.pdf)
+### MEMM-based Mehtods ###
+1. **Cascaded classifiers for confidence-based chemical named entity recognition**. Corbett P, Copestake A. *BMC bioinformatics*, 2008, 9(11): S4. [[paper]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-9-S11-S4)
+2. **OSCAR4: a flexible architecture for chemical text-mining**. Jessop D M, Adams S E, Willighagen E L, et al. *Journal of cheminformatics*, 2011, 3(1): 41. [[paper]](https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-3-41)
 
-9. [ZHAO, Zhehuan, et al. ML-CNN: A novel deep learning based disease named entity recognition architecture. In: Bioinformatics and Biomedicine (BIBM), 2016 IEEE International Conference on. IEEE, 2016. p. 794-794.](https://sci-hub.org.cn/hubdownload?s=http://ieeexplore.ieee.org/abstract/document/7822625/)
+### CRF-based Methods ###
+1. **ABNER: an open source tool for automatically tagging genes, proteins and other entity names in text**. Settles B. *Bioinformatics*, 2005, 21(14): 3191-3192.[[paper]](https://academic.oup.com/bioinformatics/article/21/14/3191/266815)
+2.  **BANNER: an executable survey of advances in biomedical named entity recognition**. Leaman R, Gonzalez G. *Biocomputing* 2008. 2008: 652-663.[[paper]](https://psb.stanford.edu/psb-online/proceedings/psb08/leaman.pdf)
+3.  **Detection of IUPAC and IUPAC-like chemical names**. Klinger R, Kolářik C, Fluck J, et al. *Bioinformatics*, 2008, 24(13): i268-i276. [[paper]](https://academic.oup.com/bioinformatics/article-abstract/24/13/i268/235854)
+3.  **Incorporating rich background knowledge for gene named entity classification and recognition**. Li Y, Lin H, Yang Z. *BMC bioinformatics*, 2009, 10(1): 223. [[paper]](https://bmcbioinformatics.biomedcentral.com/track/pdf/10.1186/1471-2105-10-223)
+3.  **A study of machine-learning-based approaches to extract clinical entities and their assertions from discharge summaries**. Jiang M, Chen Y, Liu M, et al. *Journal of the American Medical Informatics Association*, 2011, 18(5): 601-606. [[paper]](https://academic.oup.com/jamia/article/18/5/601/834186)
+4.   **ChemSpot: a hybrid system for chemical named entity recognition**. Rocktäschel T, Weidlich M, Leser U. *Bioinformatics*, 2012, 28(12): 1633-1640. [[paper]](https://academic.oup.com/bioinformatics/article/28/12/1633/266861)
+3.  **Gimli: open source and high-performance biomedical name recognition**. Campos D, Matos S, Oliveira J L. *BMC bioinformatics*, 2013, 14(1): 54. [[paper]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-14-54)
+4.  **tmVar: a text mining approach for extracting sequence variants in biomedical literature**. Wei C H, Harris B R, Kao H Y, et al. *Bioinformatics*, 2013, 29(11): 1433-1439. [[paper]](https://academic.oup.com/bioinformatics/article-abstract/29/11/1433/220291) [[code]](https://www.ncbi.nlm.nih.gov/research/bionlp/Tools/tmvar/)
+4.  **Evaluating word representation features in biomedical named entity recognition tasks**. Tang B, Cao H, Wang X, et al. *BioMed research international*, 2014, 2014. [[paper]](http://downloads.hindawi.com/journals/bmri/2014/240403.pdf)
+5.  **Drug name recognition in biomedical texts: a machine-learning-based method**. He L, Yang Z, Lin H, et al. *Drug discovery today*, 2014, 19(5): 610-617. [[paper]](https://www.sciencedirect.com/science/article/pii/S1359644613003322)
+3.  **tmChem: a high performance approach for chemical named entity recognition and normalization**. Leaman R, Wei C H, Lu Z. *Journal of cheminformatics*, 2015, 7(1): S3. [[paper]](https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-7-S1-S3)
+4.  **GNormPlus: an integrative approach for tagging genes, gene families, and protein domains**. Wei C H, Kao H Y, Lu Z. *BioMed research international*, 2015, 2015. [[paper]](http://downloads.hindawi.com/journals/bmri/2015/918710.pdf)
+5.  **Mining chemical patents with an ensemble of open systems**[J]. Leaman R, Wei C H, Zou C, et al. *Database*, 2016, 2016. [[paper]](https://academic.oup.com/database/article-abstract/doi/10.1093/database/baw065/2630406)
+6. **nala: text mining natural language mutation mentions**.  Cejuela J M, Bojchevski A, Uhlig C, et al. *Bioinformatics*, 2017, 33(12): 1852-1858. [[paper]](https://academic.oup.com/bioinformatics/article-abstract/33/12/1852/2991428)
 
-10. [KANIMOZHI, U.; MANJULA, D. A CRF Based Machine Learning Approach for Biomedical Named Entity Recognition. In: Recent Trends and Challenges in Computational Models (ICRTCCM), 2017 Second International Conference on. IEEE, 2017. p. 335-342.](https://sci-hub.org.cn/hubdownload?s=http://ieeexplore.ieee.org/abstract/document/8057560/)
 
-11. [REI, Marek; CRICHTON, Gamal KO; PYYSALO, Sampo. Attending to characters in neural sequence labeling models. arXiv preprint arXiv:1611.04361, 2016.
-](https://arxiv.org/pdf/1611.04361)
-
-12. [MURUGESAN, Gurusamy, et al. BCC-NER: bidirectional, contextual clues named entity tagger for gene/protein mention recognition. EURASIP Journal on Bioinformatics and Systems Biology, 2017, 2017.1: 7.](https://bsb-eurasipjournals.springeropen.com/articles/10.1186/s13637-017-0060-6)
-
-13. [AL-HEGAMI, Ahmed Sultan; OTHMAN, Ameen Mohammed Farea; BAGASH, Fuad Tarbosh. A biomedical named entity recognition using machine learning classifiers and rich feature set. International Journal of Computer Science and Network Security (IJCSNS), 2017, 17.1: 170.](http://paper.ijcsns.org/07_book/201701/20170126.pdf)
-
-14. [CHO, Hyejin; CHOI, Wonjun; LEE, Hyunju. A method for named entity normalization in biomedical articles: application to diseases and plants. BMC bioinformatics, 2017, 18.1: 451.](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1857-8)
-
-15. [LI, Haodi, et al. CNN-based ranking for biomedical entity normalization. BMC bioinformatics, 2017, 18.11: 385.](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1805-7)
-
-16. [Disease named entity recognition by combining conditional random fields and bidirectional recurrent neural networks](https://www.researchgate.net/profile/Ruifeng_Xu2/publication/309719928_Disease_named_entity_recognition_by_combining_conditional_random_fields_and_bidirectional_recurrent_neural_networks/links/5825e7c608aeb45b5892c953/Disease-named-entity-recognition-by-combining-conditional-random-fields-and-bidirectional-recurrent-neural-networks.pdf)
-
-17. [PENG, Yifan; LU, Zhiyong. Deep learning for extracting protein-protein interactions from biomedical literature. arXiv preprint arXiv:1706.01556, 2017.](https://arxiv.org/pdf/1706.01556)
-
-18. [LOU, Yinxia, et al. A transition-based joint model for disease named entity recognition and normalization. Bioinformatics, 2017, 33.15: 2363-2371.](https://sci-hub.org.cn/hubdownload?s=https://academic.oup.com/bioinformatics/article/3089942)
-
-19. [PENG, Yifan; LU, Zhiyong. Deep learning for extracting protein-protein interactions from biomedical literature. arXiv preprint arXiv:1706.01556, 2017.](https://arxiv.org/pdf/1706.01556)
-
-20. [LUO, Ling, et al. DUTIR at the BioCreative V. 5. BeCalm Tasks: A BLSTM-CRF Approach for Biomedical Entity Recognition in Patents.](https://www.researchgate.net/profile/Ling_Luo11/publication/317060280_DUTIR_at_the_BioCreative_V5BeCalm_Tasks_A_BLSTM-CRF_Approach_for_Biomedical_Entity_Recognition_in_Patents/links/59258b15458515e3d44581c8/DUTIR-at-the-BioCreative-V5BeCalm-Tasks-A-BLSTM-CRF-Approach-for-Biomedical-Entity-Recognition-in-Patents.pdf)
+### Neural Network-based Methods ###
+1. **Recurrent neural network models for disease name recognition using domain invariant features**. Sahu S, Anand A. *Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics*. 2016: 2216-2225. [[paper]](https://www.aclweb.org/anthology/P16-1209)
+2. **Deep learning with word embeddings improves biomedical named entity recognition**. Habibi M, Weber L, Neves M, et al. *Bioinformatics*, 2017, 33(14): i37-i48. [[paper]](https://academic.oup.com/bioinformatics/article/33/14/i37/3953940)
+3.  **A neural joint model for entity and relation extraction from biomedical text**. Li F, Zhang M, Fu G, et al. *BMC bioinformatics*, 2017, 18(1): 198. [[paper]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1609-9)
+2. **A neural network multi-task learning approach to biomedical named entity recognition**. Crichton G, Pyysalo S, Chiu B, et al. *BMC bioinformatics*, 2017, 18(1): 368. [[paper]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1776-8) [[code]](https://github.com/cambridgeltl/MTL-Bioinformatics-2016)
+3. **Disease named entity recognition from biomedical literature using a novel convolutional neural network**. Zhao Z, Yang Z, Luo L, et al. *BMC medical genomics*, 2017, 10(5): 73. [[paper]](https://bmcmedgenomics.biomedcentral.com/articles/10.1186/s12920-017-0316-8)
+3. **An attention-based BiLSTM-CRF approach to document-level chemical named entity recognition**. Luo L, Yang Z, Yang P, et al. *Bioinformatics*, 2018, 34(8): 1381-1388. [[paper]](https://academic.oup.com/bioinformatics/article-abstract/34/8/1381/4657076) [[code]](https://github.com/lingluodlut/Att-ChemdNER)
+4. **GRAM-CNN: a deep learning approach with local context for named entity recognition in biomedical text**.  Zhu Q, Li X, Conesa A, et al. *Bioinformatics*, 2018, 34(9): 1547-1554. [[paper]](https://academic.oup.com/bioinformatics/article-abstract/34/9/1547/4764002) [[code]](https://github.com/valdersoul/GRAM-CNN)
+4. **D3NER: biomedical named entity recognition using CRF-biLSTM improved with fine-tuned embeddings of various linguistic information**. Dang T H, Le H Q, Nguyen T M, et al. *Bioinformatics*, 2018, 34(20): 3539-3546. [[paper]](https://academic.oup.com/bioinformatics/article/34/20/3539/4990492) [[code]](https://github.com/aidantee/D3NER)
+4. **Transfer learning for biomedical named entity recognition with neural networks**. Giorgi J M, Bader G D. *Bioinformatics*, 2018, 34(23): 4087-4094. [[paper]](https://academic.oup.com/bioinformatics/article/34/23/4087/5026661)
+5. **Label-Aware Double Transfer Learning for Cross-Specialty Medical Named Entity Recognition**. Wang Z, Qu Y, Chen L, et al. *NAACL*. 2018: 1-15. [[paper]](https://www.aclweb.org/anthology/N18-1001)
+6. **Recognizing irregular entities in biomedical text via deep neural networks**. Li F, Zhang M, Tian B, et al. *Pattern Recognition Letters*, 2018, 105: 105-113. [[paper]](https://www.sciencedirect.com/science/article/pii/S0167865517302155)
+2. **Cross-type biomedical named entity recognition with deep multi-task learning**. Wang X, Zhang Y, Ren X, et al. *Bioinformatics*, 2019, 35(10): 1745-1752. [[paper]](https://academic.oup.com/bioinformatics/article/35/10/1745/5126922) [[code]](https://github.com/yuzhimanhua/lm-lstm-crf) 
+3. **Improving Chemical Named Entity Recognition in Patents with Contextualized Word Embeddings**.  Zhai Z, Nguyen D Q, Akhondi S, et al. *Proceedings of the 18th BioNLP Workshop and Shared Task*. 2019: 328-338. [[paper]](https://www.aclweb.org/anthology/W19-5035) [[code]](https://github.com/zenanz/ChemPatentEmbeddings)
+4. **Chinese Clinical Named Entity Recognition Using Residual Dilated Convolutional Neural Network with Conditional Random Field**. Qiu J, Zhou Y, Wang Q, et al. *IEEE Transactions on NanoBioscience*, 2019, 18(3): 306-315. [[paper]](https://ieeexplore.ieee.org/abstract/document/8678833/)
+5. **A Neural Multi-Task Learning Framework to Jointly Model Medical Named Entity Recognition and Normalization**. Zhao S, Liu T, Zhao S, et al. *Proceedings of the AAAI Conference on Artificial Intelligence*. 2019, 33: 817-824. [[paper]](https://wvvw.aaai.org/ojs/index.php/AAAI/article/download/3861/3739)
+6. **CollaboNet: collaboration of deep neural networks for biomedical named entity recognition**. Yoon W, So C H, Lee J, et al. *BMC bioinformatics*, 2019, 20(10): 249. [[paper]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2813-6) [[code]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2813-6)
+6. **BioBERT: a pre-trained biomedical language representation model for biomedical text mining**. Lee J, Yoon W, Kim S, et al. *Bioinformatics*, Advance article, 2019. [[paper]](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz682/5566506) [[code]](https://github.com/dmis-lab/biobert)
+7. **HUNER: Improving Biomedical NER with Pretraining**. Weber L, Münchmeyer J, Rocktäschel T, et al. *Bioinformatics*, Advance article, 2019. [[paper]](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btz528/5523847?redirectedFrom=fulltext) [[code]](https://hu-ner.github.io/)
+### Others ###
+1. **TaggerOne: joint named entity recognition and normalization with semi-Markov Models**. Leaman R, Lu Z. *Bioinformatics*, 2016, 32(18): 2839-2846. [[paper]](https://academic.oup.com/bioinformatics/article/32/18/2839/1744190) [[code]](https://www.ncbi.nlm.nih.gov/research/bionlp/tools/taggerone/)
+2. **A transition-based joint model for disease named entity recognition and normalization**. Lou Y, Zhang Y, Qian T, et al. *Bioinformatics*, 2017, 33(15): 2363-2371. [[paper]](https://academic.oup.com/bioinformatics/article-abstract/33/15/2363/3089942) [[code]](https://github.com/louyinxia/jointRN)
