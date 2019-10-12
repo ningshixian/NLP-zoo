@@ -54,10 +54,9 @@ python main.py
 | [(中文) weibo NER corpus](https://github.com/hltcoe/golden-horse) | 未知 | 未知 | 包含了1,890条，设计的实体有：人名、地点、组织、地理政治相关实体 |
 | [boson数据](https://github.com/InsaneLife/ChineseNLPCorpus/tree/master/NER/boson) | 未知 | 未知 | 包含6种实体类型 |
 | [人民日报数据集](https://pan.baidu.com/s/1LDwQjoj7qc-HT9qwhJ3rcA) | 未知 | 未知 | password: 1fa3 |
-| [MSRA微软亚洲研究院数据集](https://github.com/InsaneLife/ChineseNLPCorpus/tree/master/NER/MSRA) | 未知 | 未知 | 5 万多条中文命名实体识别标注数据（包括地点、机构、人物） |
+| [MSRA微软亚洲研究院数据集](https://github.com/InsaneLife/ChineseNLPCorpus/tree/master/NER/MSRA) | 未知 | 未知 | 5 万多条中文命名实体识别标注数据（IOB2 格式，符合 CoNLL 2002 和 CRF++ 标准） |
 | [Resume NER data](https://github.com/jiesutd/LatticeLSTM/tree/master/ResumeNER) |  | ACL 2018 paper Chinese NER Using Lattice LSTM. | 从新浪财经爬取的数据，包括中国股市上市公司高管的简历, CoNLL format (prefer BIOES tag scheme)
 包括城市、学校、地点、人名、组织、职称、种族背景、JOB |
-| CONLL 2003 |  | `Easy <https://github.com/patverga/torch-ner-nlp-from-scratch/tree/master/data/conll2003/>`_ `to <https://github.com/synalp/NER/tree/master/corpus/CoNLL-2003>`_ `find <https://github.com/glample/tagger/tree/master/dataset>`_ |  |
 
 
 - **情感/观点/评论 倾向性分析**
