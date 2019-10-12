@@ -1,17 +1,17 @@
 # NLP-zoo
+
 > Nlp related resources
+
 > 对中文的NLP资源做个汇总，以备不时之需
 
 # 目录
 
 * [中文NLP语料资源](#中文NLP语料资源)
 * [NLP相关论文](#NLP相关论文)
-* [适用人群](#适用人群)
-* [参与贡献](#参与贡献)
-* [参考文献](#参考文献)
-* [相关项目](#相关项目)
-* [开源许可](#开源许可) 
-* [联系我们](#联系我们)
+* [Python-Tutorial](#Python-Tutorial)
+* [matplotlib-Ipython](#matplotlib-Ipython)
+* [pandas](#pandas)
+* [scikit-learn](#scikit-learn)
 
 
 # 中文NLP语料资源
@@ -20,7 +20,7 @@
 
 | 语料名称 | 语料Size | 语料来源 | 语料描述 |
 | :-----| ----: | :----: | :----: |
-| [中文对白语料 chinese conversation corpus](https://github.com/fate233/dgk_lost_conv) | 单元格 | 单元格 | 可以用作聊天机器人的训练语料 |
+| [中文对白语料 chinese conversation corpus](https://github.com/fate233/dgk_lost_conv) |  |  | 可以用作聊天机器人的训练语料 |
 | [chatterbot](https://github.com/gunthercox/chatterbot-corpus/tree/master/chatterbot_corpus/data/chinese) | 560 | 开源项目 | 按类型分类，质量较高 |
 | qingyun（青云语料） | 10W | 某聊天机器人交流群 | 相对不错，生活化 |
 | [xiaohuangji（小黄鸡语料）](https://github.com/candlewill/Dialog_Corpus) | 45W | 	原人人网项目语料 | 有一些不雅对话，少量噪音 |
@@ -108,11 +108,13 @@ python main.py
 | 单元格 | 单元格 | 单元格 | 单元格 |
 | 单元格 | 单元格 | 单元格 | 单元格 |
 
-
+- 
 - **[中文同义词表，反义词表，否定词表](https://github.com/guotong1988/chinese_dictionary)**
 
 - **腾讯词向量**
+
 > 腾讯AI实验室公开的中文词向量数据集包含800多万中文词汇，其中每个词对应一个200维的向量。
+
 > 下载地址：https://ai.tencent.com/ailab/nlp/embedding.html
 
 
@@ -253,21 +255,25 @@ python main.py
 
 ## Machine Learning-based Methods  ##
 
-### SVM-based Methods ###
+- **SVM-based Methods**
+
 1. **Tuning support vector machines for biomedical named entity recognition**. Kazama J, Makino T, Ohta Y, et al. *Proceedings of the ACL-02 workshop on Natural language processing in the biomedical domain-Volume 3*, 2002: 1-8. [[paper]](https://aclanthology.info/pdf/W/W02/W02-0301.pdf)
 2. **Biomedical named entity recognition using two-phase model based on SVMs**. Lee K J, Hwang Y S, Kim S, et al. *Journal of Biomedical Informatics*, 2004, 37(6): 436-447. [[paper]](https://www.sciencedirect.com/science/article/pii/S1532046404000863)
 3. **Exploring deep knowledge resources in biomedical name recognition**. GuoDong Z, Jian S. *Proceedings of the International Joint Workshop on Natural Language Processing in Biomedicine and its Applications*, 2004: 96-99. [[paper]](https://aclanthology.info/pdf/W/W04/W04-1219.pdf)
 
-### HMM-based Methods ###
+- **HMM-based Methods**
+
 1. **Named entity recognition in biomedical texts using an HMM model**. Zhao S. *Proceedings of the International Joint Workshop on Natural Language Processing in Biomedicine and its Applications*, 2004: 84-87.[[paper]](https://aclanthology.info/pdf/W/W04/W04-1216.pdf)
 2. **Annotation of chemical named entities**. Corbett P, Batchelor C, Teufel S. P*roceedings of the Workshop on BioNLP 2007: Biological, Translational, and Clinical Language Processing*, 2007: 57-64. [[paper]](https://aclanthology.info/pdf/W/W07/W07-1008.pdf)
 1. **Conditional random fields vs. hidden markov models in a biomedical named entity recognition task**. Ponomareva N, Rosso P, Pla F, et al. *Proc. of Int. Conf. Recent Advances in Natural Language Processing, RANLP*. 2007, 479: 483.[[paper]](http://clg.wlv.ac.uk/papers/Ponomareva-RANLP-07.pdf)
 
-### MEMM-based Mehtods ###
+- **MEMM-based Mehtods**
+
 1. **Cascaded classifiers for confidence-based chemical named entity recognition**. Corbett P, Copestake A. *BMC bioinformatics*, 2008, 9(11): S4. [[paper]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/1471-2105-9-S11-S4)
 2. **OSCAR4: a flexible architecture for chemical text-mining**. Jessop D M, Adams S E, Willighagen E L, et al. *Journal of cheminformatics*, 2011, 3(1): 41. [[paper]](https://jcheminf.biomedcentral.com/articles/10.1186/1758-2946-3-41)
 
-### CRF-based Methods ###
+- **CRF-based Methods**
+
 1. **ABNER: an open source tool for automatically tagging genes, proteins and other entity names in text**. Settles B. *Bioinformatics*, 2005, 21(14): 3191-3192.[[paper]](https://academic.oup.com/bioinformatics/article/21/14/3191/266815)
 2.  **BANNER: an executable survey of advances in biomedical named entity recognition**. Leaman R, Gonzalez G. *Biocomputing* 2008. 2008: 652-663.[[paper]](https://psb.stanford.edu/psb-online/proceedings/psb08/leaman.pdf)
 3.  **Detection of IUPAC and IUPAC-like chemical names**. Klinger R, Kolářik C, Fluck J, et al. *Bioinformatics*, 2008, 24(13): i268-i276. [[paper]](https://academic.oup.com/bioinformatics/article-abstract/24/13/i268/235854)
@@ -284,7 +290,8 @@ python main.py
 6. **nala: text mining natural language mutation mentions**.  Cejuela J M, Bojchevski A, Uhlig C, et al. *Bioinformatics*, 2017, 33(12): 1852-1858. [[paper]](https://academic.oup.com/bioinformatics/article-abstract/33/12/1852/2991428)
 
 
-### Neural Network-based Methods ###
+- **Neural Network-based Methods**
+
 1. **Recurrent neural network models for disease name recognition using domain invariant features**. Sahu S, Anand A. *Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics*. 2016: 2216-2225. [[paper]](https://www.aclweb.org/anthology/P16-1209)
 2. **Deep learning with word embeddings improves biomedical named entity recognition**. Habibi M, Weber L, Neves M, et al. *Bioinformatics*, 2017, 33(14): i37-i48. [[paper]](https://academic.oup.com/bioinformatics/article/33/14/i37/3953940)
 3.  **A neural joint model for entity and relation extraction from biomedical text**. Li F, Zhang M, Fu G, et al. *BMC bioinformatics*, 2017, 18(1): 198. [[paper]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-017-1609-9)
@@ -303,6 +310,8 @@ python main.py
 6. **CollaboNet: collaboration of deep neural networks for biomedical named entity recognition**. Yoon W, So C H, Lee J, et al. *BMC bioinformatics*, 2019, 20(10): 249. [[paper]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2813-6) [[code]](https://bmcbioinformatics.biomedcentral.com/articles/10.1186/s12859-019-2813-6)
 6. **BioBERT: a pre-trained biomedical language representation model for biomedical text mining**. Lee J, Yoon W, Kim S, et al. *Bioinformatics*, Advance article, 2019. [[paper]](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz682/5566506) [[code]](https://github.com/dmis-lab/biobert)
 7. **HUNER: Improving Biomedical NER with Pretraining**. Weber L, Münchmeyer J, Rocktäschel T, et al. *Bioinformatics*, Advance article, 2019. [[paper]](https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btz528/5523847?redirectedFrom=fulltext) [[code]](https://hu-ner.github.io/)
-### Others ###
+
+- **Others**
 1. **TaggerOne: joint named entity recognition and normalization with semi-Markov Models**. Leaman R, Lu Z. *Bioinformatics*, 2016, 32(18): 2839-2846. [[paper]](https://academic.oup.com/bioinformatics/article/32/18/2839/1744190) [[code]](https://www.ncbi.nlm.nih.gov/research/bionlp/tools/taggerone/)
 2. **A transition-based joint model for disease named entity recognition and normalization**. Lou Y, Zhang Y, Qian T, et al. *Bioinformatics*, 2017, 33(15): 2363-2371. [[paper]](https://academic.oup.com/bioinformatics/article-abstract/33/15/2363/3089942) [[code]](https://github.com/louyinxia/jointRN)
+
