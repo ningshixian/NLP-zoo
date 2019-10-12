@@ -1,10 +1,11 @@
 # NLP-zoo
 > Nlp related resources
+> 对中文的NLP资源做个汇总，以备不时之需
 
 # 目录
 
 * [中文NLP语料资源](#中文NLP语料资源)
-* [快速入门](#快速入门)
+* [NLP相关论文](#NLP相关论文)
 * [适用人群](#适用人群)
 * [参与贡献](#参与贡献)
 * [参考文献](#参考文献)
@@ -14,7 +15,6 @@
 
 
 # 中文NLP语料资源
-> 对中文的NLP语料做个汇总，以备不时之需
 
 - **闲聊常用语料**
 
@@ -39,14 +39,15 @@ python main.py
 生成结果格式为 tsv格式，每行是一个样本，先是query，再是answer
 ```
 
-#### 领域特定语料
+- **领域特定语料**
 
 | 语料名称 | 语料大小 | 语料来源 | 语料描述 |
 | :-----| ----: | :----: | :----: |
 | [保险行业QA语料库](https://github.com/Samurais/insuranceqa-corpus-zh)  | 未知 | 通过翻译 insuranceQA产生的数据集 | train_data含有问题12,889条，数据 141779条，正例：负例 = 1:10； test_data含有问题2,000条，数据 22000条，正例：负例 = 1:10；valid_data含有问题2,000条，数据 22000条，正例：负例 = 1:10 |
 | [翻译语料(translation2019zh)](https://storage.googleapis.com/nlp_chinese_corpus/translation2019zh.zip) | 520万个中英文平行语料( 原始数据1.1G，压缩文件596M) | 单元格 | 中英文平行语料520万对 |
 
-#### 命名实体识别NER语料
+
+- **命名实体识别NER语料**
 
 | 语料名称 | 语料大小 | 语料来源 | 语料描述 |
 | :-----| ----: | :----: | :----: |
@@ -58,7 +59,8 @@ python main.py
 包括城市、学校、地点、人名、组织、职称、种族背景、JOB |
 | CONLL 2003 |  | `Easy <https://github.com/patverga/torch-ner-nlp-from-scratch/tree/master/data/conll2003/>`_ `to <https://github.com/synalp/NER/tree/master/corpus/CoNLL-2003>`_ `find <https://github.com/glample/tagger/tree/master/dataset>`_ |  |
 
-### 情感/观点/评论 倾向性分析
+
+- **情感/观点/评论 倾向性分析**
 
 | 数据集 | 数据概览 | 下载地址 |
 | ----- | -------- | ------- |
@@ -71,7 +73,8 @@ python main.py
 | yf_dianping | 24 万家餐馆，54 万用户，440 万条评论/评分数据 | [点击查看](./datasets/yf_dianping/intro.ipynb) |
 | yf_amazon | 52 万件商品，1100 多个类目，142 万用户，720 万条评论/评分数据 | [点击查看](./datasets/yf_amazon/intro.ipynb) |
 
-### 推荐系统
+
+- **推荐系统**
 
 | 数据集 | 数据概览 | 下载地址 |
 | ----- | -------- | ------- |
@@ -80,7 +83,8 @@ python main.py
 | yf_dianping | 24 万家餐馆，54 万用户，440 万条评论/评分数据 | [点击查看](./datasets/yf_dianping/intro.ipynb) |
 | yf_amazon | 52 万件商品，1100 多个类目，142 万用户，720 万条评论/评分数据 | [点击查看](./datasets/yf_amazon/intro.ipynb) |
 
-### FAQ 问答系统
+
+- **FAQ 问答系统**
 
 | 数据集 | 数据概览 | 下载地址 |
 | ----- | -------- | ------- |
@@ -92,7 +96,8 @@ python main.py
 | 农行知道 | 4 万条农业银行问答数据，包括用户提问、网友回答、最佳回答 | [点击查看](./datasets/nonghangzhidao/intro.ipynb) |
 | 保险知道 | 58.8 万条保险行业问答数据，包括用户提问、网友回答、最佳回答 | [点击查看](./datasets/baoxianzhidao/intro.ipynb) |
 
-### 超大型通用语料
+
+- **超大型通用语料**
 
 | 语料名称 | 语料大小 | 语料来源 | 语料描述 |
 | :-----| ----: | :----: | :----: |
@@ -103,16 +108,16 @@ python main.py
 | 单元格 | 单元格 | 单元格 | 单元格 |
 | 单元格 | 单元格 | 单元格 | 单元格 |
 
-### [中文同义词表，反义词表，否定词表](https://github.com/guotong1988/chinese_dictionary)
 
-### 腾讯词向量
-腾讯AI实验室公开的中文词向量数据集包含800多万中文词汇，其中每个词对应一个200维的向量。
+- **[中文同义词表，反义词表，否定词表](https://github.com/guotong1988/chinese_dictionary)**
 
-下载地址：https://ai.tencent.com/ailab/nlp/embedding.html
+- **腾讯词向量**
+> 腾讯AI实验室公开的中文词向量数据集包含800多万中文词汇，其中每个词对应一个200维的向量。
+> 下载地址：https://ai.tencent.com/ailab/nlp/embedding.html
 
 
 
-# Paper4NLP
+# NLP相关论文
 
 ### Attention
 1. [SEO, Minjoon, et al. Bidirectional attention flow for machine comprehension. arXiv preprint arXiv:1611.01603, 2016.](https://arxiv.org/pdf/1611.01603)
