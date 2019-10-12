@@ -55,8 +55,7 @@ python main.py
 | [boson数据](https://github.com/InsaneLife/ChineseNLPCorpus/tree/master/NER/boson) | 未知 | 未知 | 包含6种实体类型 |
 | [人民日报数据集](https://pan.baidu.com/s/1LDwQjoj7qc-HT9qwhJ3rcA) | 未知 | 未知 | password: 1fa3 |
 | [MSRA微软亚洲研究院数据集](https://github.com/InsaneLife/ChineseNLPCorpus/tree/master/NER/MSRA) | 未知 | 未知 | 5 万多条中文命名实体识别标注数据（IOB2 格式，符合 CoNLL 2002 和 CRF++ 标准） |
-| [Resume NER data](https://github.com/jiesutd/LatticeLSTM/tree/master/ResumeNER) |  | ACL 2018 paper Chinese NER Using Lattice LSTM. | 从新浪财经爬取的数据，包括中国股市上市公司高管的简历, CoNLL format (prefer BIOES tag scheme)
-包括城市、学校、地点、人名、组织、职称、种族背景、JOB |
+| [Resume NER data](https://github.com/jiesutd/LatticeLSTM/tree/master/ResumeNER) |  | ACL 2018 paper 《Chinese NER Using Lattice LSTM》 | 爬虫新浪财经的的简历数据, CoNLL format (BIOES tag scheme)，包括城市、学校、地点、人名、组织等 |
 
 
 - **情感/观点/评论 倾向性分析**
