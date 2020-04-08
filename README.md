@@ -1,12 +1,14 @@
 # NLP-zoo
 
-> Nlp related resources
-
 > 对中文的NLP资源做个汇总，以备不时之需
 
 # 目录
 
 * [中文NLP语料资源](#中文NLP语料资源)
+* [NLP工具包](#NLP工具包)
+* [中文分词](#中文分词)
+* [QA & Chatbot 问答和聊天机器人](#QA & Chatbot 问答和聊天机器人)
+
 * [NLP相关论文](#NLP相关论文)
 * [Python-Tutorial](#Python-Tutorial)
 * [matplotlib-Ipython](#matplotlib-Ipython)
@@ -115,6 +117,76 @@ python main.py
 
 > 下载地址：https://ai.tencent.com/ailab/nlp/embedding.html
 
+
+# NLP工具包
+
+- [THULAC 中文词法分析工具包](http://thulac.thunlp.org/) by 清华 (C++/Java/Python)
+
+- [LTP 语言技术平台](https://github.com/HIT-SCIR/ltp) by 哈工大 (C++)  [pylyp](https://github.com/HIT-SCIR/pyltp) LTP的python封装
+
+- [BaiduLac](https://github.com/baidu/lac) by 百度 Baidu's open-source lexical analysis tool for Chinese, including word segmentation, part-of-speech tagging & named entity recognition. 
+
+- [HanLP](https://github.com/hankcs/HanLP) (Java)
+
+- [SnowNLP](https://github.com/isnowfy/snownlp) (Python) Python library for processing Chinese text
+
+- [小明NLP](https://github.com/SeanLee97/xmnlp) (Python) 轻量级中文自然语言处理工具
+
+- [chinese_nlp](https://github.com/taozhijiang/chinese_nlp) (C++ & Python) Chinese Natural Language Processing tools and examples
+
+- [CoreNLP](https://github.com/stanfordnlp/CoreNLP) by Stanford (Java) A Java suite of core NLP tools.
+
+- [Stanza](https://github.com/stanfordnlp/stanza) by Stanford (Python) A Python NLP Library for Many Human Languages
+
+- [spaCy](https://spacy.io/) (Python) Industrial-Strength Natural Language Processing with a [online course](https://course.spacy.io/)
+
+- [gensim](https://github.com/RaRe-Technologies/gensim) (Python) Gensim is a Python library for topic modelling, document indexing and similarity retrieval with large corpora. 
+
+- [Kashgari](https://github.com/BrikerMan/Kashgari) - Simple and powerful NLP framework, build your state-of-art model in 5 minutes for named entity recognition (NER), part-of-speech tagging (PoS) and text classification tasks. Includes BERT and word2vec embedding.
+
+  
+# 中文分词
+
+- [Jieba 结巴中文分词](https://github.com/fxsjy/jieba) (Python及大量其它编程语言衍生) 做最好的 Python 中文分词组件
+
+- [北大中文分词工具](https://github.com/lancopku/pkuseg-python) (Python) 高准确度中文分词工具，简单易用，跟现有开源工具相比大幅提高了分词的准确率。
+
+- [A neural network model for Chinese named entity recognition](https://github.com/zjy-ucas/ChineseNER)
+
+- [bert-chinese-ner](https://github.com/ProHiryu/bert-chinese-ner) 使用预训练语言模型BERT做中文NER
+  
+- [Information-Extraction-Chinese](https://github.com/crownpku/Information-Extraction-Chinese) Chinese Named Entity Recognition with IDCNN/biLSTM+CRF, and Relation Extraction with biGRU+2ATT 中文实体识别与关系提取
+
+  
+# QA & Chatbot 问答和聊天机器人 
+
+- [Rasa NLU](https://github.com/RasaHQ/rasa_nlu) (Python) turn natural language into structured data, a Chinese fork at [Rasa NLU Chi](https://github.com/crownpku/Rasa_NLU_Chi)
+
+- [Rasa Core](https://github.com/RasaHQ/rasa_core) (Python) machine learning based dialogue engine for conversational software
+
+- [Chatstack](https://github.com/crownpku/Chatstack-Doc) A Full Pipeline UI for building Chinese NLU System
+
+- [Snips NLU](https://github.com/snipsco/snips-nlu) (Python) Snips NLU is a Python library that allows to parse sentences written in natural language and extracts structured information.
+
+- [DeepPavlov](https://github.com/deepmipt/DeepPavlov) (Python) An open source library for building end-to-end dialog systems and training chatbots.
+
+- [ChatScript](https://github.com/bwilcox-1234/ChatScript) Natural Language tool/dialog manager, a rule-based chatbot engine.
+
+- [Chatterbot](https://github.com/gunthercox/ChatterBot) (Python) ChatterBot is a machine learning, conversational dialog engine for creating chat bots.
+
+- [Chatbot](https://github.com/zake7749/Chatbot) (Python) 基於向量匹配的情境式聊天機器人
+
+- [QA-Snake](https://github.com/SnakeHacker/QA-Snake) (Python) 基于多搜索引擎和深度学习技术的自动问答
+
+- [使用TensorFlow实现的Sequence to Sequence的聊天机器人模型](https://github.com/qhduan/Seq2Seq_Chatbot_QA) (Python)
+
+- [使用深度学习算法实现的中文阅读理解问答系统](https://github.com/S-H-Y-GitHub/QA) (Python)
+
+- [AnyQ by Baidu](https://github.com/baidu/AnyQ) 主要包含面向FAQ集合的问答系统框架、文本语义匹配工具SimNet。
+
+- [QASystemOnMedicalKG](https://github.com/liuhuanyong/QASystemOnMedicalKG) (Python) 以疾病为中心的一定规模医药领域知识图谱，并以该知识图谱完成自动问答与分析服务。
+
+- [GPT2-chitchat](https://github.com/yangjianxin1/GPT2-chitchat) (Python) 用于中文闲聊的GPT2模型
 
 
 # NLP相关论文
