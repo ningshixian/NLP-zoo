@@ -2,12 +2,13 @@
 
 > 对中文的NLP资源做个汇总，以备不时之需
 
+
 # 目录
 
 * [中文NLP语料资源](#中文NLP语料资源)
 * [NLP工具包](#NLP工具包)
 * [中文分词](#中文分词)
-* [QA & Chatbot 问答和聊天机器人](#QA & Chatbot 问答和聊天机器人)
+* [QA & Chatbot 问答和聊天机器人](#Chatbot问答和聊天机器人)
 
 * [NLP相关论文](#NLP相关论文)
 * [Python-Tutorial](#Python-Tutorial)
@@ -105,17 +106,15 @@ python main.py
 | [新闻语料json版(news2016zh)](https://pan.baidu.com/s/1LJeq1dkA0wmYd9ZGZw72Xg) | 250万篇新闻,原始数据9G | 涵盖了6.3万个媒体，含标题、关键词、描述、正文 | 密码: film 包含了250万篇新闻。数据集划分：数据去重并分成三个部分。训练集：243万；验证集：7.7万；测试集，数万 |
 | [百科类问答json版(baike2018qa)](https://pan.baidu.com/s/12TCEwC_Q3He65HtPKN17cA) | 150万个问答,原始数据1G多 | 密码:fu45 | 含有150万个预先过滤过的、高质量问题和答案，每个问题属于一个类别。总共有492个类别 |
 | [社区问答json版(webtext2019zh)](https://storage.googleapis.com/nlp_chinese_corpus/webtext2019zh.zip) | 410万个问答,过滤后数据3.7G | 1400万个原始问答 | 含有410万个预先过滤过的、高质量问题和回复。 |
-| 单元格 | 单元格 | 单元格 | 单元格 |
-| 单元格 | 单元格 | 单元格 | 单元格 |
 
-- 
+
 - **[中文同义词表，反义词表，否定词表](https://github.com/guotong1988/chinese_dictionary)**
 
 - **腾讯词向量**
 
-> 腾讯AI实验室公开的中文词向量数据集包含800多万中文词汇，其中每个词对应一个200维的向量。
+  - 腾讯AI实验室公开的中文词向量数据集包含800多万中文词汇，其中每个词对应一个200维的向量。
 
-> 下载地址：https://ai.tencent.com/ailab/nlp/embedding.html
+  - 下载地址：https://ai.tencent.com/ailab/nlp/embedding.html
 
 
 # NLP工具包
@@ -158,7 +157,7 @@ python main.py
 - [Information-Extraction-Chinese](https://github.com/crownpku/Information-Extraction-Chinese) Chinese Named Entity Recognition with IDCNN/biLSTM+CRF, and Relation Extraction with biGRU+2ATT 中文实体识别与关系提取
 
   
-# QA & Chatbot 问答和聊天机器人 
+# Chatbot问答和聊天机器人
 
 - [Rasa NLU](https://github.com/RasaHQ/rasa_nlu) (Python) turn natural language into structured data, a Chinese fork at [Rasa NLU Chi](https://github.com/crownpku/Rasa_NLU_Chi)
 
