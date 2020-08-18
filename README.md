@@ -20,6 +20,8 @@
 
 # 中文NLP语料资源
 
+> https://mp.weixin.qq.com/s/CODsntmNYwHga9jHxDdbgw
+
 - **闲聊常用语料**
 
 | 语料名称 | 语料Size | 语料来源 | 语料描述 |
@@ -55,11 +57,22 @@ python main.py
 
 | 语料名称 | 语料大小 | 语料来源 | 语料描述 |
 | :-----| ----: | :----: | :----: |
-| [(中文) weibo NER corpus](https://github.com/hltcoe/golden-horse) | 未知 | 未知 | 包含了1,890条，设计的实体有：人名、地点、组织、地理政治相关实体 |
-| [boson数据](https://github.com/InsaneLife/ChineseNLPCorpus/tree/master/NER/boson) | 未知 | 未知 | 包含6种实体类型 |
-| [人民日报数据集](https://pan.baidu.com/s/1LDwQjoj7qc-HT9qwhJ3rcA) | 未知 | 未知 | password: 1fa3 |
-| [MSRA微软亚洲研究院数据集](https://github.com/InsaneLife/ChineseNLPCorpus/tree/master/NER/MSRA) | 未知 | 未知 | 5 万多条中文命名实体识别标注数据（IOB2 格式，符合 CoNLL 2002 和 CRF++ 标准） |
+| [微博NER](https://github.com/OYE93/Chinese-NLP-Corpus/tree/master/NER/Weibo) [weibo NER corpus](https://github.com/hltcoe/golden-horse) | 未知 | 未知 | 包含了1,890条，设计的实体有：人名、地点、组织、地理政治相关实体 |
+| [boson数据(不维护了)](https://github.com/InsaneLife/ChineseNLPCorpus/tree/master/NER/boson) | 2000条 | 未知 | 包含人名、地名、时间、组织名、公司名、产品名这6种实体类型 |
+| [人民日报命名实体识别数据集](https://github.com/OYE93/Chinese-NLP-Corpus/tree/master/NER/People's%20Daily) | 新闻一共有137万多条 | 未知 | 包含地名、人名和机构名三类 |
+| [MSRA微软亚洲研究院数据集](https://github.com/InsaneLife/ChineseNLPCorpus/tree/master/NER/MSRA) | 未知 | 未知 | 5 万多条中文命名实体识别标注数据（IOB2 格式，符合 CoNLL 2002 和 CRF++ 标准）包含地名、人名和机构名三类 |
 | [Resume NER data](https://github.com/jiesutd/LatticeLSTM/tree/master/ResumeNER) |  | ACL 2018 paper 《Chinese NER Using Lattice LSTM》 | 爬虫新浪财经的的简历数据, CoNLL format (BIOES tag scheme)，包括城市、学校、地点、人名、组织等 |
+| [影视、音乐、书籍实体标注数据](https://github.com/LG-1/video_music_book_datasets) | 未知 | 未知 | 类似于人名/地名/组织机构名的命名体识别数据集，大约10000条影视/音乐/书籍数据 |
+| [1300W字的新闻](https://pan.baidu.com/s/17djsvYfpYUXrazL0H_mtoA) | 未知 | 未知 | 该语料可用于分词、NER、POS等任务。标记和格式请参考此文章(https://cloud.tencent.com/developer/article/1091906) |
+
+
+- **文本分类数据集**
+
+| 语料名称 | 语料大小 | 语料来源 | 语料描述 |
+| :-----| ----: | :----: | :----: |
+| [2018中国‘法研杯’法律智能挑战赛数据](https://cail.oss-cn-qingdao.aliyuncs.com/CAIL2018_ALL_DATA.zip) | 未知 | 未知 | 268万刑法法律文书，共涉及183条罪名，202条法条，刑期长短包括0-25年、无期、死刑 |
+| [今日头条中文新闻（短文本）](https://github.com/fateleak/toutiao-text-classfication-dataset) | 共382688条 | 未知 | 15个分类中，包含民生、文化、娱乐、体育、财经、房产、骑车、教育、科技、军事、旅游、国际、证券、农业、电竞 |
+| [SMP2017中文人机对话评测数据](https://github.com/HITlilingzhi/SMP2017ECDT-DATA) | - | 未知 | 包含了两个任务的数据集，用户意图领域分类和特定域任务型人机对话在线评测。第一个数据集用得比较多。用户意图领域分类包含闲聊类、任务垂直类共三十一个类别，属于短文本分类的一个范畴 |
 
 
 - **情感/观点/评论 倾向性分析**
@@ -97,6 +110,9 @@ python main.py
 | 联通知道 | 20.3 万条联通问答数据，包括用户提问、网友回答、最佳回答 | [点击查看](./datasets/liantongzhidao/intro.ipynb) |
 | 农行知道 | 4 万条农业银行问答数据，包括用户提问、网友回答、最佳回答 | [点击查看](./datasets/nonghangzhidao/intro.ipynb) |
 | 保险知道 | 58.8 万条保险行业问答数据，包括用户提问、网友回答、最佳回答 | [点击查看](./datasets/baoxianzhidao/intro.ipynb) |
+| 580万百度知道社群问答 | 包括超过580万的问题，每个问题带有问题标签。问答对983万个，每个问题的答案个数1.7个，问题标签个数5824个。 | [点击查看](https://github.com/liuhuanyong/MiningZhiDaoQACorpus) |
+| DuReader | 百度开源的一个QA和MRC数据集，共140万篇文档，30万个问题，及66万个答案。 | [点击查看](http://ai.baidu.com/broad/introduction?dataset=dureader) |
+| 社区问答数据 | 含有410万个预先过滤过的、高质量问题和回复。每个问题属于一个话题，总共有2.8万个各式话题，话题包罗万象。从1400万个原始问答中，筛选出至少获得3个点赞以上的的答案，代表了回复的内容比较不错或有趣，从而获得高质量的数据集。除了对每个问题对应一个话题、问题的描述、一个或多个回复外，每个回复还带有点赞数、回复ID、回复者的标签 | [点击查看](https://github.com/brightmart/nlp_chinese_corpus) |
 
 
 - **超大型通用语料**
@@ -110,6 +126,12 @@ python main.py
 
 
 - **[中文同义词表，反义词表，否定词表](https://github.com/guotong1988/chinese_dictionary)**
+
+- 1.4亿三元组中文知识图谱（https://github.com/ownthink/KnowledgeGraphData）
+
+- Dbpedia（https://wiki.dbpedia.org/develop/datasets/dbpedia-version-2016-10）：多语知识图谱数据，共有130亿个三元组，但大部分都是英语。有760个类，1105个关系，1622个属性。
+
+- 开放的中文知识图谱社区（http://www.openkg.cn/）：这里有很多垂直领域图谱数据，我就不一一放上来了。
 
 - **腾讯词向量**
 
