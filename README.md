@@ -115,6 +115,17 @@ python main.py
 | DuReader              | 百度开源的一个QA和MRC数据集，共140万篇文档，30万个问题，及66万个答案。 | [点击查看](http://ai.baidu.com/broad/introduction?dataset=dureader) |
 | 社区问答数据          | 含有410万个预先过滤过的、高质量问题和回复。每个问题属于一个话题，总共有2.8万个各式话题，话题包罗万象。从1400万个原始问答中，筛选出至少获得3个点赞以上的的答案，代表了回复的内容比较不错或有趣，从而获得高质量的数据集。除了对每个问题对应一个话题、问题的描述、一个或多个回复外，每个回复还带有点赞数、回复ID、回复者的标签 | [点击查看](https://github.com/brightmart/nlp_chinese_corpus) |
 
+## 最新任务型对话数据集大全
+
+> 由哈工大SCIR博士生侯宇泰收集整理的一个任务型对话数据集大全
+
+这份数据集大全涵盖了到目前在任务型对话领域的所有常用数据集的主要信息。
+此外，为了帮助研究者更好的把握领域进展的脉络，以Leaderboard的形式给出了几个数据集上的State-of-the-art实验结果。
+
+数据集的地址如下：
+
+https://github.com/AtmaHou/Task-Oriented-Dialogue-Dataset-Survey
+
 ## 超大型通用语料
 
 | 语料名称                                                     |                   语料大小 |                   语料来源                    |                           语料描述                           |
