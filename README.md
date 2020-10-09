@@ -32,6 +32,8 @@
 | [xiaohuangji（小黄鸡语料）](https://github.com/candlewill/Dialog_Corpus) |      45W |        原人人网项目语料         |       有一些不雅对话，少量噪音        |
 | [douban（豆瓣多轮）](https://github.com/MarkWuNLP/MultiTurnResponseSelection) |     352W | 来自北航和微软的paper, 开源项目 | 噪音相对较少，原本是多轮（平均7.6轮） |
 | [weibo（微博语料）]()                                        |     443W |         来自华为的paper         |              有一些噪音               |
+| [中文闲聊语料库LCCC](https://github.com/thu-coai/CDial-GPT)   |     ??W |         清华大学2020         |              大规模的中文闲聊语料库LCCC，从开源的文件上来看，这可能是目前开源的数量最大、质量最好的闲聊语料库了               |
+
 
 ```
 使用方法
